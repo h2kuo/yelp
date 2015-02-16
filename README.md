@@ -2,7 +2,7 @@
 
 This is a Yelp search app using the Yelp API.
 
-Time spent: <10 hours>
+Time spent: `10 hours`
 
 ### Features
 
