@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1190A7DA1A8B16460076744E /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 1190A7D91A8B16460076744E /* Business.m */; };
+		1190A7DF1A8B1C1D0076744E /* BusinessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1190A7DD1A8B1C1D0076744E /* BusinessCell.m */; };
+		1190A7E01A8B1C1D0076744E /* BusinessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1190A7DE1A8B1C1D0076744E /* BusinessCell.xib */; };
+		1190A7E41A8B262A0076744E /* FiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1190A7E21A8B262A0076744E /* FiltersViewController.m */; };
+		1190A7E51A8B262A0076744E /* FiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1190A7E31A8B262A0076744E /* FiltersViewController.xib */; };
+		1190A7E91A8B2D960076744E /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1190A7E71A8B2D960076744E /* SwitchCell.m */; };
+		1190A7EA1A8B2D960076744E /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1190A7E81A8B2D960076744E /* SwitchCell.xib */; };
+		1190A8001A8C7BFF0076744E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420474FA18DC2B2100E88E07 /* MainViewController.xib */; };
+		1190A8041A8DD2F40076744E /* ChoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1190A8021A8DD2F40076744E /* ChoiceCell.m */; };
+		1190A8051A8DD2F40076744E /* ChoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1190A8031A8DD2F40076744E /* ChoiceCell.xib */; };
+		1190A8071A8FCB4D0076744E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1190A8061A8FCB4D0076744E /* MapKit.framework */; };
 		420474F618DC299500E88E07 /* YelpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 420474F518DC299500E88E07 /* YelpClient.m */; };
 		420474FB18DC2B2100E88E07 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420474F918DC2B2100E88E07 /* MainViewController.m */; };
-		420474FC18DC2B2100E88E07 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420474FA18DC2B2100E88E07 /* MainViewController.xib */; };
 		42FD6C4B18DC286B000BF2B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FD6C4A18DC286B000BF2B9 /* Foundation.framework */; };
 		42FD6C4D18DC286B000BF2B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FD6C4C18DC286B000BF2B9 /* CoreGraphics.framework */; };
 		42FD6C4F18DC286B000BF2B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FD6C4E18DC286B000BF2B9 /* UIKit.framework */; };
@@ -36,6 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1190A7D81A8B16460076744E /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		1190A7D91A8B16460076744E /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
+		1190A7DC1A8B1C1D0076744E /* BusinessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCell.h; sourceTree = "<group>"; };
+		1190A7DD1A8B1C1D0076744E /* BusinessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCell.m; sourceTree = "<group>"; };
+		1190A7DE1A8B1C1D0076744E /* BusinessCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessCell.xib; sourceTree = "<group>"; };
+		1190A7E11A8B262A0076744E /* FiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersViewController.h; sourceTree = "<group>"; };
+		1190A7E21A8B262A0076744E /* FiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersViewController.m; sourceTree = "<group>"; };
+		1190A7E31A8B262A0076744E /* FiltersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiltersViewController.xib; sourceTree = "<group>"; };
+		1190A7E61A8B2D960076744E /* SwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchCell.h; sourceTree = "<group>"; };
+		1190A7E71A8B2D960076744E /* SwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchCell.m; sourceTree = "<group>"; };
+		1190A7E81A8B2D960076744E /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		1190A8011A8DD2F40076744E /* ChoiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceCell.h; sourceTree = "<group>"; };
+		1190A8021A8DD2F40076744E /* ChoiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceCell.m; sourceTree = "<group>"; };
+		1190A8031A8DD2F40076744E /* ChoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoiceCell.xib; sourceTree = "<group>"; };
+		1190A8061A8FCB4D0076744E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		420474F418DC299500E88E07 /* YelpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpClient.h; sourceTree = "<group>"; };
 		420474F518DC299500E88E07 /* YelpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpClient.m; sourceTree = "<group>"; };
 		420474F818DC2B2100E88E07 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -57,7 +82,8 @@
 		42FD6C6B18DC286B000BF2B9 /* YelpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YelpTests-Info.plist"; sourceTree = "<group>"; };
 		42FD6C6D18DC286B000BF2B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42FD6C6F18DC286B000BF2B9 /* YelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpTests.m; sourceTree = "<group>"; };
-		8436EC1AAEE1439D997D29F7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		475FFCD624F57FF067943508 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8D065B3B953D86115981C23B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9DEC6D18C14F46F8AF2EA320 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,6 +94,7 @@
 			files = (
 				42FD6C4D18DC286B000BF2B9 /* CoreGraphics.framework in Frameworks */,
 				42FD6C4F18DC286B000BF2B9 /* UIKit.framework in Frameworks */,
+				1190A8071A8FCB4D0076744E /* MapKit.framework in Frameworks */,
 				42FD6C4B18DC286B000BF2B9 /* Foundation.framework in Frameworks */,
 				63E591F41F684901AF8C1C19 /* libPods.a in Frameworks */,
 			);
@@ -86,6 +113,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1190A7D71A8B16320076744E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1190A7D81A8B16460076744E /* Business.h */,
+				1190A7D91A8B16460076744E /* Business.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1190A7DB1A8B1BFC0076744E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1190A7DC1A8B1C1D0076744E /* BusinessCell.h */,
+				1190A7DD1A8B1C1D0076744E /* BusinessCell.m */,
+				1190A7DE1A8B1C1D0076744E /* BusinessCell.xib */,
+				1190A7E61A8B2D960076744E /* SwitchCell.h */,
+				1190A7E71A8B2D960076744E /* SwitchCell.m */,
+				1190A7E81A8B2D960076744E /* SwitchCell.xib */,
+				1190A8011A8DD2F40076744E /* ChoiceCell.h */,
+				1190A8021A8DD2F40076744E /* ChoiceCell.m */,
+				1190A8031A8DD2F40076744E /* ChoiceCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		420474F318DC297600E88E07 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +153,9 @@
 				420474F818DC2B2100E88E07 /* MainViewController.h */,
 				420474F918DC2B2100E88E07 /* MainViewController.m */,
 				420474FA18DC2B2100E88E07 /* MainViewController.xib */,
+				1190A7E11A8B262A0076744E /* FiltersViewController.h */,
+				1190A7E21A8B262A0076744E /* FiltersViewController.m */,
+				1190A7E31A8B262A0076744E /* FiltersViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -112,7 +167,7 @@
 				42FD6C6918DC286B000BF2B9 /* YelpTests */,
 				42FD6C4918DC286B000BF2B9 /* Frameworks */,
 				42FD6C4818DC286B000BF2B9 /* Products */,
-				8436EC1AAEE1439D997D29F7 /* Pods.xcconfig */,
+				C6C3A40E66936B6870262330 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +183,7 @@
 		42FD6C4918DC286B000BF2B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1190A8061A8FCB4D0076744E /* MapKit.framework */,
 				42FD6C4A18DC286B000BF2B9 /* Foundation.framework */,
 				42FD6C4C18DC286B000BF2B9 /* CoreGraphics.framework */,
 				42FD6C4E18DC286B000BF2B9 /* UIKit.framework */,
@@ -140,7 +196,9 @@
 		42FD6C5018DC286B000BF2B9 /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				1190A7D71A8B16320076744E /* Models */,
 				420474F318DC297600E88E07 /* API */,
+				1190A7DB1A8B1BFC0076744E /* Views */,
 				420474F718DC2A9200E88E07 /* View Controllers */,
 				42FD6C5918DC286B000BF2B9 /* AppDelegate.h */,
 				42FD6C5A18DC286B000BF2B9 /* AppDelegate.m */,
@@ -177,6 +235,15 @@
 				42FD6C6C18DC286B000BF2B9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6C3A40E66936B6870262330 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D065B3B953D86115981C23B /* Pods.debug.xcconfig */,
+				475FFCD624F57FF067943508 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +295,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = codepath;
 				TargetAttributes = {
+					42FD6C4618DC286A000BF2B9 = {
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					42FD6C6118DC286B000BF2B9 = {
 						TestTargetID = 42FD6C4618DC286A000BF2B9;
 					};
@@ -257,8 +331,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FD6C5518DC286B000BF2B9 /* InfoPlist.strings in Resources */,
-				420474FC18DC2B2100E88E07 /* MainViewController.xib in Resources */,
+				1190A8051A8DD2F40076744E /* ChoiceCell.xib in Resources */,
+				1190A8001A8C7BFF0076744E /* MainViewController.xib in Resources */,
+				1190A7E01A8B1C1D0076744E /* BusinessCell.xib in Resources */,
+				1190A7E51A8B262A0076744E /* FiltersViewController.xib in Resources */,
 				42FD6C5D18DC286B000BF2B9 /* Images.xcassets in Resources */,
+				1190A7EA1A8B2D960076744E /* SwitchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +378,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -310,10 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1190A7E41A8B262A0076744E /* FiltersViewController.m in Sources */,
+				1190A7E91A8B2D960076744E /* SwitchCell.m in Sources */,
+				1190A7DA1A8B16460076744E /* Business.m in Sources */,
 				42FD6C5B18DC286B000BF2B9 /* AppDelegate.m in Sources */,
 				42FD6C5718DC286B000BF2B9 /* main.m in Sources */,
 				420474F618DC299500E88E07 /* YelpClient.m in Sources */,
+				1190A8041A8DD2F40076744E /* ChoiceCell.m in Sources */,
 				420474FB18DC2B2100E88E07 /* MainViewController.m in Sources */,
+				1190A7DF1A8B1C1D0076744E /* BusinessCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +510,7 @@
 		};
 		42FD6C7418DC286B000BF2B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8436EC1AAEE1439D997D29F7 /* Pods.xcconfig */;
+			baseConfigurationReference = 8D065B3B953D86115981C23B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -441,7 +524,7 @@
 		};
 		42FD6C7518DC286B000BF2B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8436EC1AAEE1439D997D29F7 /* Pods.xcconfig */;
+			baseConfigurationReference = 475FFCD624F57FF067943508 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
